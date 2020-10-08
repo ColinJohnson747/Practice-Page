@@ -1,3 +1,14 @@
+header {
+  height: 95px;
+}
+
+/*Navbar Wrapper*/
+.navbar-Wrapper {
+  border-bottom: solid;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+  border-color: #5f7800;
+}
+
 /*Top Nav Bar*/
 .top-Nav ul {
   margin: 0;
@@ -10,9 +21,10 @@
 }
 
 .top-Nav li a {
-  color: #55565a;
+  color: #404143;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
 }
 
 .top-Nav li:not(:first-child):before {
@@ -21,26 +33,40 @@
 
 .search-Icon {
   background: url("./images/search.png");
-  height: 12;
-  width: 12;
+  height: 12px;
+  width: 12px;
   display: block;
 }
 
 /*Lower Nav*/
 .lower-Nav ul {
   margin: 0;
-  padding: 5px;
+
+  padding-left: 0px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  position: relative;
 }
 
 .lower-Nav ul li {
   list-style-type: none;
   display: inline;
   padding-right: 5px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .lower-Nav li a {
-  color: #55565a;
+  color: #404143;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  padding: 5px;
+}
+
+/*Logo*/
+.logo {
+  width: 100%;
+  max-width: 140px;
+  padding-top: 25px;
+  vertical-align: middle;
 }
