@@ -7,6 +7,7 @@ header {
   border-bottom: solid;
   box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
   border-color: #5f7800;
+  z-index: 2;
 }
 
 /*Top Nav Bar*/
@@ -71,15 +72,13 @@ header {
   vertical-align: middle;
 }
 
-/*Breadcrumb*/
+/* Breadcrumb*/
 .breadcrumb-List {
   position: relative;
-  padding: 12px 0 5px;
+  padding: 10px 0 5px;
   height: 35px;
-}
-.breadcrumb-List {
-  margin: 0;
-  padding: 5px;
+  background-color: #e6e6e6;
+  z-index: -1;
 }
 
 .breadcrumb-List li {
@@ -89,3 +88,5 @@ header {
 .breadcrumb-List li a {
   color: black;
 }
+
+/*top-image-right */
