@@ -45,7 +45,7 @@
     <script src="https://www.syngenta-us.com/js/hf2017.js?version=1.0"></script>
 
     <!-- page-specific -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="js/script.js"></script>
   </head>
   <body>
@@ -2228,7 +2228,36 @@
         </div>
       </section>
 
-      <section class="form"></section>
+      <section class="form">
+        <div class="container">
+            <h2> Heading Level Two</h2>
+            <div class="row">
+                <div class="col-sm-6 input-container" >
+                    <label for="first-name" >First Name</label>
+                    <input name="first-name" type="text" style="width: 100%;"></input>
+                </div>
+                <div class="col-sm-6 input-container" >
+                    <label for="last-name">Last Name</label>
+                    <input name="last-name" type="text" style="width: 100%;"></input>
+                </div>
+            </div>
+            <div class="col-sm input-container" >
+                    <label for="email" >Email</label>
+                    <input name="email" type="text" style="width: 100%;"></input>
+            </div>
+            <div class="col-sm input-container">
+                <label for="Message" >Message</label>
+                <textarea name="Message" type="text" style="width: 100%;"></textarea>
+            </div>
+            <div class="col-sm input-container">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">By providing your email address, you are agreeing to receive email communications from Syngenta. We will use your information only in accordance with our <a href="#">privacy policy</a>. </label>
+              </div>
+              <div class="input-container">
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+      </section>
 
       <!-- KEEP EDITS ABOVE THIS LINE -->
     </div>
