@@ -25,8 +25,21 @@ label input[type="radio"] {
   box-sizing: border-box;
   margin-left: -10px;
 }
+input[type="text"],
+textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #55565a;
+  margin-top: 5px;
+}
 
 .checkbox-label {
   box-sizing: border-box;
   margin-right: 5px;
+}
+h2 {
+  padding-top: 45px;
+}
+.form-label {
+  padding-bottom: 5px;
 }
