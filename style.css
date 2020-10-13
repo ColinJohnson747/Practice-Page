@@ -2324,3 +2324,11 @@ single iframe responsive video
   width: 100%;
   position: absolute;
 }
+
+.card-heading {
+  float: right;
+}
+
+.section-two {
+  padding-top: 70px;
+}
